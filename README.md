@@ -46,7 +46,7 @@ While the model stabilized, further experimentation with hyperparameters and dat
 ### Sample Images from the Dataset
 Below are examples of cat and dog images from the dataset:
 
-![Sample Cat](images/dataset_examples/sample_cat.jpg)
+![Sample Cat](dataset_examples/cat_dog_5.jpg)
 ![Sample Dog](images/dataset_examples/sample_dog.jpg)  
 
 ## Dataset
