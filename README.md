@@ -49,6 +49,11 @@ Below are examples of cat and dog images from the dataset:
 ![Sample Cat](dataset_examples/cat_dog_5.jpg)
 ![Sample Dog](dataset_examples/cat_dog_7.jpg)  
 
+### Training and Validation Performance
+The following graphs show the model's training and validation accuracy and loss over the course of 30 epochs:
+
+![Training vs Validation Accuracy](images/training_vs_validation_accuracy.png)
+
 ## Dataset
 The dataset used for training the CNN model is available on Kaggle:
 - [Cat and Dog Image Dataset](https://www.kaggle.com/datasets/stethomas/cat-and-dog-image-dataset-for-whiskernet/data)
