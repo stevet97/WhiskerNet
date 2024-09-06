@@ -47,7 +47,7 @@ While the model stabilized, further experimentation with hyperparameters and dat
 Below are examples of cat and dog images from the dataset:
 
 ![Sample Cat](dataset_examples/cat_dog_5.jpg)
-![Sample Dog](images/dataset_examples/sample_dog.jpg)  
+![Sample Dog](dataset_examples/cat_dog_7.jpg)  
 
 ## Dataset
 The dataset used for training the CNN model is available on Kaggle:
