@@ -43,7 +43,11 @@ While the model stabilized, further experimentation with hyperparameters and dat
 - **Hyperparameter Tuning**: Further optimization of batch sizes, learning rates, and dropout rates to boost accuracy.
 - **Experiment with Deeper Architectures**: Add more convolutional layers to increase the model's capacity to learn complex features.
 
-## Finding the Dataset on Kaggle
+### Sample Images from the Dataset
+Below are examples of cat and dog images from the dataset:
+
+![Sample Cat](images/dataset_examples/sample_cat.jpg)
+![Sample Dog](images/dataset_examples/sample_dog.jpg)  
 
 ## Dataset
 The dataset used for training the CNN model is available on Kaggle:
