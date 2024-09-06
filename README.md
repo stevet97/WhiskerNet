@@ -43,7 +43,11 @@ While the model stabilized, further experimentation with hyperparameters and dat
 - **Hyperparameter Tuning**: Further optimization of batch sizes, learning rates, and dropout rates to boost accuracy.
 - **Experiment with Deeper Architectures**: Add more convolutional layers to increase the model's capacity to learn complex features.
 
-## Installation and Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CNN-Cat-Dog-Classifier.git
+## Finding the Dataset on Kaggle
+
+!pip install kaggle
+from kaggle.api.kaggle_api_extended import KaggleApi
+api = KaggleApi()
+api.authenticate()
+
+api.dataset_download_files('your-username/cat-and-dog-image-dataset', path='data/', unzip=True)
