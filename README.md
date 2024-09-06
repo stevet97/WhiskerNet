@@ -48,3 +48,12 @@ While the model stabilized, further experimentation with hyperparameters and dat
 ## Dataset
 The dataset used for training the CNN model is available on Kaggle:
 - [Cat and Dog Image Dataset](https://www.kaggle.com/datasets/stethomas/cat-and-dog-image-dataset-for-whiskernet/data)
+
+To download the dataset programmatically:
+```python
+!pip install kaggle
+from kaggle.api.kaggle_api_extended import KaggleApi
+api = KaggleApi()
+api.authenticate()
+
+api.dataset_download_files('your-username/cat-and-dog-image-dataset', path='data/', unzip=True)
